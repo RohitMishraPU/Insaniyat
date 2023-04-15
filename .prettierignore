@@ -1,0 +1,10 @@
+# Ignore build artifacts:
+dist
+
+# Ignore all HTML files:
+*.html
+
+# Ignore certain folders:
+.git
+
+node_modules
