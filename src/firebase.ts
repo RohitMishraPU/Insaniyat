@@ -5,7 +5,7 @@ import 'firebase/compat/storage'
 
 const app = firebase.initializeApp(
     {
-        apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+        apiKey: import.meta.env.VITE_FIREBASE_API_KEY || 'AIzaSyD_04jmdYqXXcnJAAXLi53tQhodVUXSCsA',
         authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
         databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,        
         projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
