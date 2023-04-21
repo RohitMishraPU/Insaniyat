@@ -1,0 +1,17 @@
+.about {
+    width: 50%;
+    height: 80vh;
+    background-color: #624d22;
+}
+
+p {
+    width: 50%;
+    height: 80vh;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 2rem 0 2.6rem;
+    color: beige;
+}

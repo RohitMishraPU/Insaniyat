@@ -1,8 +1,8 @@
 import {React, useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import '@fortawesome/free-solid-svg-icons';
-import '@fortawesome/free-regular-svg-icons';
+// import '@fortawesome/free-solid-svg-icons';
+// import '@fortawesome/free-regular-svg-icons';
 
 const Navbar = () => {
 
@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     // <div className='navbar'>Coming Soon</div>
     <nav className='navbar'>
-        <h3 className='logo'>Logo</h3>
-        {/* <img className='logo' src='./images/insaaniyat.png' alt='' /> */}
+        <h3 className='logo'></h3>
+        <img className='logo' src='/src/assets/insaaniyat.ico' alt='Logo' />
         <ul className={isMobile ? 'nav-links-mobile' : 'nav-links'}
         onClick={() => setIsMobile(false)}>
             <Link to='/' className='home'>

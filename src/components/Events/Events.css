@@ -1,0 +1,12 @@
+.events {
+    width: 50%;
+    height: 70vh;
+    background-color: #624d22;
+}
+
+.events > div {
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}

@@ -3,13 +3,15 @@ import './Home.css';
 import Typewriter from 'typewriter-effect';
 import Carousel from "./Banner";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Events from '../Events/Events.jsx';
+import Portfolio from '../portfolio/portfolio.jsx';
 
 const Home2 = () => {
     const [state] = useState({
         title: "Hi, ",
         titleTwo: "Welcome to ",
         titleThree: "Insaaniyat Reborn.",
-        image: "../../assets/insaaniyat.jpg",
+        image: "src/assets/insaaniyat.png",
     });
   return (
     <>
@@ -54,10 +56,10 @@ const Home2 = () => {
                 </p>
             </div>
             <div className='float-child'>
-                {/* <Events /> */}
+                <Events />
             </div>
         </div>
-        {/* <Portfolio /> */}
+        <Portfolio />
     </>
   )
 }
