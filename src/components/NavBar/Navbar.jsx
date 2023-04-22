@@ -11,8 +11,12 @@ const Navbar = () => {
   return (
     // <div className='navbar'>Coming Soon</div>
     <nav className='navbar'>
-        <h3 className='logo'></h3>
         <img className='logo' src='/src/assets/insaaniyat.ico' alt='Logo' />
+        <div className='content'>
+        <h3 className='logoName1'>InsaaniyatReborn</h3>
+        <h3 className='logoName2'>InsaaniyatReborn</h3>
+        </div>
+        
         <ul className={isMobile ? 'nav-links-mobile' : 'nav-links'}
         onClick={() => setIsMobile(false)}>
             <Link to='/' className='home'>

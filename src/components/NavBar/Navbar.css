@@ -1,5 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+
+.content{
+    position: relative;
+}
+.content h3
+{
+position: absolute;
+transform: translate(-50%, -50%);
+font-size: 1em;
+}
+.content h3:nth-child(1)
+{
+    color: transparent;
+    -webkit-text-stroke: 2px #c2820b;
+}
+.content h3:nth-child(2)
+{
+    color: #5a3e09;
+    animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        clip-path: polygon(1% 51%, 9% 44%, 18% 42%, 28% 44%, 39% 48%, 46% 53%, 52% 55%, 61% 54%, 69% 48%, 78% 43%, 86% 40%, 92% 43%, 99% 48%, 98% 96%, 3% 97%);
+
+    }
+    50%
+    {
+        clip-path: polygon(2% 68%, 11% 68%, 20% 64%, 25% 59%, 33% 54%, 41% 54%, 51% 56%, 60% 59%, 67% 63%, 71% 66%, 81% 69%, 88% 67%, 94% 60%, 99% 55%, 99% 98%, 2% 97%);
+    }
+    50%,75%
+    {
+        clip-path: polygon(2% 58%, 10% 61%, 17% 64%, 24% 65%, 30% 63%, 37% 59%, 42% 56%, 51% 54%, 56% 53%, 65% 54%, 70% 57%, 77% 63%, 84% 63%, 91% 61%, 97% 57%, 99% 97%, 2% 98%);
+    }
+}
 .navbar {
-    background-color: #5a3e09;
+    /* background-color: #5a3e09; */
     color: white;
     font-size: 24px;
     height: 75px;
@@ -14,15 +52,31 @@
     margin: 0;
     padding: 0;
 }
-/* 
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 75px;
-    background-color: #00828c;
-    color: white;
-} */
+
+/* h3 {
+    body
+    div class - content
+    h2 water
+    h2 water
+    ---------
+    text-transform: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #ccc;
+  } */
+
+.logoName1,
+.logoName2 {
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #ccc;
+    animation-name: moveRight;
+    animation-duration: 1.3s;
+    color: #c2820b;
+    margin-bottom: 10px;
+}
 
 .logo {
     font-size: 30px;
@@ -40,7 +94,17 @@
 .home,
 .events,
 .about,
-.contact,
+.contact {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 1px solid #c2820b;
+    border-radius: 5px;
+}
+
 .donate {
     text-decoration: none;
     color: white;
@@ -48,10 +112,7 @@
     padding: 5px 10px;
     margin: 0 10px;
     cursor: pointer;
-}
-
-.donate {
-    border: 1px solid red;
+    border: 1px solid rgb(60, 235, 92);
     border-radius: 5px;
 }
 

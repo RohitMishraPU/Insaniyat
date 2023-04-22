@@ -14,7 +14,7 @@ const AppRoutes = () => {
     const { currentUser } = useAuth()
   
     return(<Router>
-      <Navbar name='nav' /> 
+      <Navbar /> 
          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/h" element={<Home2 />} />
