@@ -1,17 +1,25 @@
-.about {
+/* p {
     width: 50%;
     height: 80vh;
-    background-color: #624d22;
-}
-
-p {
-    width: 50%;
-    height: 80vh;
-    display: block;
+    display: inline-flex;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    margin-left: 20px;
     margin: 2rem 0 2.6rem;
-    color: beige;
-}
+} */
+/* .founders {
+    padding: 100px;
+  } */
+  
+  /* .founders-image 
+  { */
+    /* width: 150px;
+    height: 150px; */
+    /* border-radius: 50%; */
+    /* margin: 20px;
+  
+    object-fit: cover;
+    object-position: center right; */
+  /* } */

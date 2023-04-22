@@ -46,14 +46,8 @@ const Home2 = () => {
         </div>
         <div className='float-container'>
             <div className='float-child'>
-                <p>Blanket Distribution 2020
-                The input() function is used to read in keyboard input. You will therefore need to type something in 
-                the terminal prompt after running the script for the rest of the script to execute. Note that the input() 
-                function is wrapped in the int() function.This is because input() reads in values as strings and yet we 
-                need age to be an integer. We, therefore, have to cast the keyboard input into a string, or else we will 
-                get an error for example when checking if the string is greater than 18. Finally, note the else statement 
-                which executes for any other input which doesn’t fit the criteria being checked for in the if statements.
-                </p>
+                <h3>Blanket Distribution 2020
+                </h3>
             </div>
             <div className='float-child'>
                 <Events />

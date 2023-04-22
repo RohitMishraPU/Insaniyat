@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h2>Contact Us</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
@@ -37,8 +37,8 @@ const Contact = () => {
           <article className="contact__option">
             <FaFacebookMessenger className='contact__option-icon' />
             <h4>Messenger</h4>
-            <h5>Biplab Mahato</h5>
-            <a href="https://m.me/100004214773667/" target='_blank'>Send a message</a>
+            <h5>Insaaniyat Reborn</h5>
+            <a href="https://m.me/insaaniyatreborn/" target='_blank'>Send a message</a>
           </article>
           <article className="contact__option">
             <ImWhatsapp className='contact__option-icon' />
@@ -59,4 +59,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;
