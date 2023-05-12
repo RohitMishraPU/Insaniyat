@@ -1,3 +1,5 @@
-const Home = () => (<>This is Insaniyat Reborn Here</>)
+const Home = () => (
+<>This is Insaniyat Reborn Here</>
+)
 
 export default Home;
